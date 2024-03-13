@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Bowlby+One+SC&family=Gruppo&family=Josefin+Sans:wght@200&family=PT+Sans+Caption&family=Rubik+Doodle+Shadow&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #bdd1bd;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #000009;
+}
+
+.principal {
+    width: 80%; 
+    height: 90%; 
+    border: 2px solid #bdd1bd;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    background-color: #07142b;
+}
+.contenedorfijo1{
+    margin: 20px;
+    width: 300px; 
+    height: 400px; 
+    border: 2px solid #bdd1bd;
+    background-color: #173c4c;
+}
+.cajafija{
+    margin: 20px;
+    width: 100px; 
+    height: 150px; 
+    border: 2px solid #bdd1bd;
+    display: inline-block;
+    background-color: #326d6c;
+}
+.contenedorflexible{
+    margin: 2px;
+    width: 30%;  
+    border: 1px solid #bdd1bd;
+    background-color: #173c4c;
+}
+.cajaflexible{
+    margin: 20px;
+    width: 20%; 
+    height: 88px; 
+    border: 2px solid #bdd1bd;
+    display: inline-block;
+    background-color: #326d6c;
+}
+.contenedorfijo2{
+    margin: 20px;
+    width: 300px; 
+    height: 400px; 
+    border: 2px solid #bdd1bd;
+    background-color: #173c4c;
+}
+.contenedor{
+    margin: 20px;
+    width: 250px; 
+    height: 70px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cajafija1{
+    width: 100px; 
+    height: 70px; 
+    border: 2px solid #bdd1bd;
+    flex-grow: 3;
+    background-color: #326d6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajafija2{
+    margin: 5px;
+    width: 100px; 
+    height: 70px; 
+    border: 2px solid #bdd1bd;
+    flex-grow: 23;
+    background-color: #326d6c;
+}
